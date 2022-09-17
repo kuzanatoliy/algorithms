@@ -1,10 +1,5 @@
-export type ComparatorFn<T = number> = (prev: T, curr: T) => boolean;
-
-export type SortFn<T = number> = (arr: T[], comparator: ComparatorFn<T>) => T[];
-
-const defaultComparator = <T = number>(prev: T, curr: T) => {
-  return prev < curr;
-};
+import { defaultComparator } from "../utils";
+import { ComparatorFn } from "../types";
 
 export const insertionSort = <T = number>(
   arr: T[],

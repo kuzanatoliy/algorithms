@@ -1,1 +1,1 @@
-export * from "./insertion-sort";
+export * from "./sorts";
