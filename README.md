@@ -1,2 +1,5 @@
 # algorithms
-Algorithms and data structure
+
+## [Sorts](src/sorts/README.md)
+
+[Insertion sort](src/sorts/insertion-sort/README.md)
