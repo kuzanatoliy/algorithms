@@ -16,16 +16,23 @@ describe("insertion sort", () => {
   });
 
   it.each`
-    value                              | result                             | comparator
-    ${[-3, -1, 0, 1, 3]}               | ${[-3, -1, 0, 1, 3]}               | ${undefined}
-    ${[7, -5, 3, -7, 0, -1, 5, 1, -3]} | ${[-7, -5, -3, -1, 0, 1, 3, 5, 7]} | ${undefined}
-    ${[3, 1, 0, -1, -3]}               | ${[-3, -1, 0, 1, 3]}               | ${comparatorSpy}
-    ${[{ v: -5 }, { v: 0 }, { v: 5 }]} | ${[{ v: -5 }, { v: 0 }, { v: 5 }]} | ${comparatorObjectSpy}
-    ${[{ v: 5 }, { v: -5 }, { v: 0 }]} | ${[{ v: -5 }, { v: 0 }, { v: 5 }]} | ${comparatorObjectSpy}
-  `("test: turn $value into $result", ({ value, result, comparator }) => {
-    expect(insertionSort(value, comparator)).toEqual(result);
-    if (comparator) {
-      expect(comparator).toBeCalled();
+    value                              | result                             | comparator             | order
+    ${[-3, -1, 0, 1, 3]}               | ${[-3, -1, 0, 1, 3]}               | ${undefined}           | ${undefined}
+    ${[7, -5, 3, -7, 0, -1, 5, 1, -3]} | ${[-7, -5, -3, -1, 0, 1, 3, 5, 7]} | ${undefined}           | ${true}
+    ${[3, 1, 0, -1, -3]}               | ${[-3, -1, 0, 1, 3]}               | ${comparatorSpy}       | ${true}
+    ${[-3, -1, 0, 1, 3]}               | ${[3, 1, 0, -1, -3]}               | ${undefined}           | ${false}
+    ${[7, -5, 3, -7, 0, -1, 5, 1, -3]} | ${[7, 5, 3, 1, 0, -1, -3, -5, -7]} | ${undefined}           | ${false}
+    ${[3, 1, 0, -1, -3]}               | ${[3, 1, 0, -1, -3]}               | ${comparatorSpy}       | ${false}
+    ${[{ v: -5 }, { v: 0 }, { v: 5 }]} | ${[{ v: -5 }, { v: 0 }, { v: 5 }]} | ${comparatorObjectSpy} | ${undefined}
+    ${[{ v: 5 }, { v: -5 }, { v: 0 }]} | ${[{ v: -5 }, { v: 0 }, { v: 5 }]} | ${comparatorObjectSpy} | ${true}
+    ${[{ v: 5 }, { v: -5 }, { v: 0 }]} | ${[{ v: 5 }, { v: 0 }, { v: -5 }]} | ${comparatorObjectSpy} | ${false}
+  `(
+    "test: turn $value into $result",
+    ({ value, result, comparator, order }) => {
+      expect(insertionSort(value, comparator, order)).toEqual(result);
+      if (comparator) {
+        expect(comparator).toBeCalled();
+      }
     }
-  });
+  );
 });
