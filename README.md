@@ -1,5 +1,5 @@
 # algorithms
 
-## [Sorts](src/sorts/README.md)
+## [Sorts](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/README.md)
 
-[Insertion sort](src/sorts/insertion-sort/README.md)
+[Insertion sort](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/insertion-sort/README.md)
