@@ -1,5 +1,5 @@
 name: Quality gates
-# on: push
+on: push
 jobs:
   pipeline:
     runs-on: ubuntu-latest
