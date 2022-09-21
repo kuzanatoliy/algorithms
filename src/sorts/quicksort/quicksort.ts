@@ -1,5 +1,5 @@
-import { defaultComparator } from "../utils";
-import { ComparatorFn } from "../types";
+import { defaultComparator } from '../utils';
+import { ComparatorFn } from '../types';
 
 export const quicksort = <T = number>(
   arr: T[],
@@ -16,18 +16,10 @@ export const quicksort = <T = number>(
       temp;
     while (i < j) {
       count++;
-      while (
-        order
-          ? comparator(arr[i] as T, arr[middle] as T)
-          : comparator(arr[middle] as T, arr[i] as T)
-      ) {
+      while (order ? comparator(arr[i] as T, arr[middle] as T) : comparator(arr[middle] as T, arr[i] as T)) {
         i++;
       }
-      while (
-        order
-          ? comparator(arr[middle] as T, arr[j] as T)
-          : comparator(arr[j] as T, arr[middle] as T)
-      ) {
+      while (order ? comparator(arr[middle] as T, arr[j] as T) : comparator(arr[j] as T, arr[middle] as T)) {
         j--;
       }
       temp = arr[j];

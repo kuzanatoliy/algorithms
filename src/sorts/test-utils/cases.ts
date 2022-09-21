@@ -1,4 +1,4 @@
-import { comparatorSpy, comparatorObjectSpy } from "./spies";
+import { comparatorSpy, comparatorObjectSpy } from './spies';
 
 export const testCases = [
   {
