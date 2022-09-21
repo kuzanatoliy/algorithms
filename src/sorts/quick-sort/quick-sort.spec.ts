@@ -1,13 +1,13 @@
-import { quicksort } from './quicksort';
+import { quickSort } from './quick-sort';
 import { testCases } from '../test-utils';
 
-describe('insertion sort', () => {
+describe('quick sort', () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
 
   it.each(Object.entries(testCases))('test %s:', (_, { value, result, comparator, order }) => {
-    expect(quicksort(value as any, comparator, order)).toEqual(result);
+    expect(quickSort(value as any, comparator, order)).toEqual(result);
     if (comparator) {
       expect(comparator).toBeCalled();
     }
