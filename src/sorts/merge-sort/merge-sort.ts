@@ -11,22 +11,22 @@ export const mergeSort = <T = number>(arr: T[], comparator: ComparatorFn<T> = de
     const right = mergeSort(arr.slice(middle, arr.length), comparator, order);
 
     while (i < left.length && j < right.length) {
-      if (order ? comparator(left[i] as T, right[j] as T) : comparator(right[j] as T, left[i] as T)) {
-        arr[k] = left[i] as T;
+      if (order ? comparator(left[i]!, right[j]!) : comparator(right[j]!, left[i]!)) {
+        arr[k] = left[i]!;
         i++;
       } else {
-        arr[k] = right[j] as T;
+        arr[k] = right[j]!;
         j++;
       }
       k++;
     }
     while (i < left.length) {
-      arr[k] = left[i] as T;
+      arr[k] = left[i]!;
       k++;
       i++;
     }
     while (j < right.length) {
-      arr[k] = right[j] as T;
+      arr[k] = right[j]!;
       k++;
       j++;
     }
