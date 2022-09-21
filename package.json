@@ -15,10 +15,9 @@
     "url": "git+https://github.com/kuzanatoliy/algorithms.git"
   },
   "keywords": [
-    "react",
-    "react-testing-library",
-    "tests",
-    "jest"
+    "algorithms",
+    "data structures",
+    "javascript"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
