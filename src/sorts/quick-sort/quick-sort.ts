@@ -1,7 +1,7 @@
 import { defaultComparator } from '../utils';
 import { ComparatorFn } from '../types';
 
-export const quicksort = <T = number>(
+export const quickSort = <T = number>(
   arr: T[],
   comparator: ComparatorFn<T> = defaultComparator,
   order = true,
@@ -27,8 +27,8 @@ export const quicksort = <T = number>(
       arr[i] = temp as T;
     }
     if (count > 1) {
-      quicksort(arr, comparator, order, first, i);
-      quicksort(arr, comparator, order, j, last);
+      quickSort(arr, comparator, order, first, i);
+      quickSort(arr, comparator, order, j, last);
     }
   }
   return arr;
