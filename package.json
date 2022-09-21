@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/kuzanatoliy/algorithms/issues"
   },
-  "homepage": "https://github.com/kuzanatoliy/react-testing-library-utils#readme",
+  "homepage": "https://github.com/kuzanatoliy/algorithms#readme",
   "devDependencies": {
     "@types/jest": "^29.0.2",
     "husky": "^8.0.1",
