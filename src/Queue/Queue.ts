@@ -1,4 +1,4 @@
-export class Stack<T = number> {
+export class Queue<T = number> {
   private store: T[];
 
   constructor() {
@@ -10,7 +10,7 @@ export class Stack<T = number> {
   }
 
   public pop(): T | null {
-    return this.store.pop() ?? null;
+    return this.store.shift() ?? null;
   }
 
   get length(): number {
