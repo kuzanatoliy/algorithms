@@ -11,3 +11,5 @@
 ## Data structures
 
 [Stack](https://github.com/kuzanatoliy/algorithms/blob/master/src/Stack/README.md)
+
+[Queue](https://github.com/kuzanatoliy/algorithms/blob/master/src/Queue/README.md)
