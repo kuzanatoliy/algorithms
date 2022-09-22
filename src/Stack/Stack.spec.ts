@@ -8,7 +8,7 @@ describe('Stack', () => {
   it('init state', () => {
     const stack = new Stack();
     expect(stack.length).toBe(0);
-    expect(stack.put()).toBeNull();
+    expect(stack.pop()).toBeNull();
   });
 
   it('work flow', () => {
@@ -16,7 +16,7 @@ describe('Stack', () => {
     stack.push(1);
     stack.push(5);
     expect(stack.length).toBe(2);
-    expect(stack.put()).toBe(5);
-    expect(stack.put()).toBe(1);
+    expect(stack.pop()).toBe(5);
+    expect(stack.pop()).toBe(1);
   });
 });

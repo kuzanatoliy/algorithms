@@ -6,16 +6,11 @@ export class Stack<T = number> {
   }
 
   public push(item: T): void {
-    this.store[this.store.length] = item;
+    this.store.push(item);
   }
 
-  public put(): T | null {
-    if (this.store.length) {
-      const item = this.store[this.store.length - 1];
-      this.store.length--;
-      return item!;
-    }
-    return null;
+  public pop(): T | null {
+    return this.store.pop() ?? null;
   }
 
   get length(): number {
