@@ -20,7 +20,8 @@
     "javascript",
     "insertion sort",
     "merge sort",
-    "quick sort"
+    "quick sort",
+    "stack"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
