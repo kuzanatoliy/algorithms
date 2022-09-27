@@ -8,8 +8,8 @@ export const testCases = [
     order: undefined,
   },
   {
-    value: [10],
-    result: [10],
+    value: [25, 10],
+    result: [10, 25],
     comparator: undefined,
     order: undefined,
   },
