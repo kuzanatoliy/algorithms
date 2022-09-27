@@ -2,6 +2,18 @@ import { comparatorSpy, comparatorObjectSpy } from './spies';
 
 export const testCases = [
   {
+    value: [],
+    result: [],
+    comparator: undefined,
+    order: undefined,
+  },
+  {
+    value: [10],
+    result: [10],
+    comparator: undefined,
+    order: undefined,
+  },
+  {
     value: [-3, -1, 0, 1, 3],
     result: [-3, -1, 0, 1, 3],
     comparator: undefined,
