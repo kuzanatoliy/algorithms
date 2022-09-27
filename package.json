@@ -18,9 +18,13 @@
     "algorithms",
     "data structures",
     "javascript",
+    "bubble sort",
+    "cocktail shaker sort",
+    "comb sort",
     "insertion sort",
     "merge sort",
     "quick sort",
+    "queue",
     "stack"
   ],
   "main": "./dist/index.js",
