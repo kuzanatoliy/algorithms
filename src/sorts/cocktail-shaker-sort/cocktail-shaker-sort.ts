@@ -1,12 +1,12 @@
 import { defaultComparator } from '../utils';
 import { ComparatorFn } from '../types';
 
-export const cocktailShakerSort = <T = number>(
-  arr: T[],
-  comparator: ComparatorFn<T> = defaultComparator,
+export const cocktailShakerSort = <TItem = number>(
+  arr: TItem[],
+  comparator: ComparatorFn<TItem> = defaultComparator,
   order = true
 ) => {
-  let i: number, ii: number, j: number, item: T;
+  let i: number, ii: number, j: number, item: TItem;
   for (i = 0, ii = arr.length - 1; i < ii; i++, ii--) {
     for (j = 1; j <= ii; j++) {
       if (order ? comparator(arr[j]!, arr[j - 1]!) : comparator(arr[j - 1]!, arr[j]!)) {

@@ -1,15 +1,15 @@
-export class Stack<T = number> {
-  private store: T[];
+export class Stack<TItem = number> {
+  private store: TItem[];
 
   constructor() {
     this.store = [];
   }
 
-  public push(item: T): void {
+  public push(item: TItem): void {
     this.store.push(item);
   }
 
-  public pop(): T | null {
+  public pop(): TItem | null {
     return this.store.pop() ?? null;
   }
 

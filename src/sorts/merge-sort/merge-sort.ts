@@ -1,7 +1,11 @@
 import { defaultComparator } from '../utils';
 import { ComparatorFn } from '../types';
 
-export const mergeSort = <T = number>(arr: T[], comparator: ComparatorFn<T> = defaultComparator, order = true) => {
+export const mergeSort = <TItem = number>(
+  arr: TItem[],
+  comparator: ComparatorFn<TItem> = defaultComparator,
+  order = true
+) => {
   if (arr.length > 1) {
     let middle = Math.floor(arr.length / 2),
       i = 0,

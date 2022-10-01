@@ -1,3 +1,3 @@
-export type ComparatorFn<T = number> = (prev: T, curr: T) => boolean;
+export type ComparatorFn<TItem = number> = (prev: TItem, curr: TItem) => boolean;
 
-export type SortFn<T = number> = (arr: T[], comparator: ComparatorFn<T>, order: boolean) => T[];
+export type SortFn<TItem = number> = (arr: TItem[], comparator: ComparatorFn<TItem>, order: boolean) => TItem[];
