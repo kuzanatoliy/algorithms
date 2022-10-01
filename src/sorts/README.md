@@ -6,6 +6,8 @@
 
 [Comb sort](comb-sort/README.md)
 
+[Gnome sort](comb-sort/README.md)
+
 [Insertion sort](insertion-sort/README.md)
 
 [Merge sort](merge-sort/README.md)
