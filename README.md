@@ -16,6 +16,8 @@
 
 [Quick sort](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/quick-sort/README.md)
 
+[Selection sort](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/selection-sort/README.md)
+
 ## Data structures
 
 [Stack](https://github.com/kuzanatoliy/algorithms/blob/master/src/Stack/README.md)

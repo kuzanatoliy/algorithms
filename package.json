@@ -21,9 +21,11 @@
     "bubble sort",
     "cocktail shaker sort",
     "comb sort",
+    "gnome sort",
     "insertion sort",
     "merge sort",
     "quick sort",
+    "selection sort",
     "queue",
     "stack"
   ],
