@@ -1,0 +1,14 @@
+node_modules
+coverage
+yarn-error.log
+
+.github
+.husky
+src
+utils
+**/README.md
+.gitignore
+tsconfig.json
+yarn.lock
+jest.config.js
+prettierrc.js
