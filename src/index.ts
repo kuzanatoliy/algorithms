@@ -1,3 +1,5 @@
+export * from './searches';
+
 export * from './sorts';
 
 export * from './Queue';

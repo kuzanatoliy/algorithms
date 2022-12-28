@@ -1,3 +1,1 @@
-export const defaultComparator = <TItem = number>(prev: TItem, curr: TItem) => {
-  return prev < curr;
-};
+export const defaultComparator = <TItem = number>(prev: TItem, curr: TItem) => prev < curr;
