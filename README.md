@@ -1,5 +1,9 @@
 # algorithms
 
+## [Serches](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/README.md)
+
+[Binary search](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/binary-search/README.md)
+
 ## [Sorts](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/README.md)
 
 [Bubble sort](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/bubble-sort/README.md)

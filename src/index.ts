@@ -1,4 +1,4 @@
-export * from './search';
+export * from './searches';
 
 export * from './sorts';
 
