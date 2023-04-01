@@ -40,6 +40,7 @@
   },
   "homepage": "https://github.com/kuzanatoliy/algorithms#readme",
   "devDependencies": {
+    "@types/babel__core": "^7.20.0",
     "@types/hast": "^2.3.4",
     "@types/jest": "^29.2.2",
     "husky": "^8.0.2",
