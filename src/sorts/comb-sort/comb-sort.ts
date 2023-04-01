@@ -1,11 +1,11 @@
 import { defaultComparator } from '../utils';
-import { ComparatorFn } from '../types';
+import { IComparatorFn } from '../types';
 
 const SHRINK = 1.247;
 
 export const combSort = <TItem = number>(
   arr: TItem[],
-  comparator: ComparatorFn<TItem> = defaultComparator,
+  comparator: IComparatorFn<TItem> = defaultComparator,
   order = true
 ) => {
   let j: number,

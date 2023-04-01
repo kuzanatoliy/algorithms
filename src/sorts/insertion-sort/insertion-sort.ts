@@ -1,9 +1,9 @@
 import { defaultComparator } from '../utils';
-import { ComparatorFn } from '../types';
+import { IComparatorFn } from '../types';
 
 export const insertionSort = <TItem = number>(
   arr: TItem[],
-  comparator: ComparatorFn<TItem> = defaultComparator,
+  comparator: IComparatorFn<TItem> = defaultComparator,
   order = true
 ) => {
   let i: number, j: number, item: TItem;

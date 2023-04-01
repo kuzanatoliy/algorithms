@@ -1,9 +1,9 @@
 import { defaultComparator } from '../utils';
-import { ComparatorFn } from '../types';
+import { IComparatorFn } from '../types';
 
 export const quickSort = <TItem = number>(
   arr: TItem[],
-  comparator: ComparatorFn<TItem> = defaultComparator,
+  comparator: IComparatorFn<TItem> = defaultComparator,
   order = true,
   first = 0,
   last = arr.length - 1
