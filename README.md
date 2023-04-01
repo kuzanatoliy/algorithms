@@ -14,6 +14,10 @@
 
 [Binary search](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/binary-search/README.md)
 
+## [Sequences](https://github.com/kuzanatoliy/algorithms/blob/master/src/sequences/README.md)
+
+[Fibonacci](https://github.com/kuzanatoliy/algorithms/blob/master/src/sequences/fibonacci/README.md)
+
 ## [Sorts](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/README.md)
 
 [Bubble sort](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/bubble-sort/README.md)
