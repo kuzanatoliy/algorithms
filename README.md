@@ -1,10 +1,14 @@
 # algorithms
 
-## Data structures(https://github.com/kuzanatoliy/algorithms/blob/master/src/data-structures/README.md)
+## [Data structures](https://github.com/kuzanatoliy/algorithms/blob/master/src/data-structures/README.md)
 
 [Stack](https://github.com/kuzanatoliy/algorithms/blob/master/src/data-structures/Stack/README.md)
 
 [Queue](https://github.com/kuzanatoliy/algorithms/blob/master/src/data-structures/Queue/README.md)
+
+## [Math](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/README.md)
+
+[Greatest common devisior](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/greatest-common-devisior/README.md)
 
 ## [Serches](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/README.md)
 
