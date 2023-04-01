@@ -29,7 +29,11 @@
     "quick sort",
     "selection sort",
     "queue",
-    "stack"
+    "stack",
+    "sequences",
+    "fibonacci",
+    "math",
+    "treatest common devisior"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
