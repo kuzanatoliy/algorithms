@@ -1,11 +1,11 @@
-type ComparatorFn<TItem = number> = (prev: TItem, curr: TItem) => -1 | 0 | 1;
+type IComparatorFn<TItem = number> = (prev: TItem, curr: TItem) => -1 | 0 | 1;
 
 const defaultComparator = <TItem = number>(prev: TItem, curr: TItem) => (prev === curr ? 0 : prev > curr ? 1 : -1);
 
 export const binarySearch = <TItem = number>(
   arr: TItem[],
   value: TItem,
-  comparator: ComparatorFn<TItem> = defaultComparator,
+  comparator: IComparatorFn<TItem> = defaultComparator,
   order = true
 ) => {
   let first = 0,
