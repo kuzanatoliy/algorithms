@@ -1,6 +1,6 @@
 {
   "name": "@kuzanatoliorg/algorithms",
-  "version": "1.19.0",
+  "version": "1.20.0",
   "description": "The utils package for react testing library",
   "scripts": {
     "clean-artifacts": "node utils/clean.js",
