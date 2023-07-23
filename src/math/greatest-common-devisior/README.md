@@ -4,4 +4,4 @@ The greatest common divisor (GCD) of two or more integers, which are not all zer
 
 [More details](https://en.wikipedia.org/wiki/Fibonacci_sequence)
 
-[Source](greatest-common-devisior.ts#L5)
+[Source](greatest-common-devisior.ts#L1)

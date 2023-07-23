@@ -10,6 +10,10 @@
 
 [Greatest common devisior](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/greatest-common-devisior/README.md)
 
+[Max](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/max/README.md)
+
+[Min](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/min/README.md)
+
 ## [Serches](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/README.md)
 
 [Binary search](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/binary-search/README.md)
