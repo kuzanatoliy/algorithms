@@ -33,7 +33,9 @@
     "sequences",
     "fibonacci",
     "math",
-    "treatest common devisior"
+    "treatest common devisior",
+    "min",
+    "max"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
