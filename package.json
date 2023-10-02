@@ -8,7 +8,8 @@
     "build:local": "yarn run clean-artifacts && yarn run build",
     "test": "jest src --coverage",
     "prettier:write": "prettier --write .",
-    "prettier:check": "prettier --check ."
+    "prettier:check": "prettier --check .",
+    "commitlint": "commitlint --edit"
   },
   "repository": {
     "type": "git",
@@ -46,6 +47,9 @@
   },
   "homepage": "https://github.com/kuzanatoliy/algorithms#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@kuzanatoliorg/commitlint-config": "^1.0.0",
     "@kuzanatoliorg/prettier-config": "^1.10.0",
     "@types/babel__core": "^7.20.0",
     "@types/hast": "^2.3.4",
