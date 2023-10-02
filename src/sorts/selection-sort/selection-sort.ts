@@ -10,7 +10,11 @@ export const selectionSort = <TItem = number>(
   for (i = 0; i < arr.length; i++) {
     temp = i;
     for (j = i + 1; j < arr.length; j++) {
-      if (order ? comparator(arr[j]!, arr[temp]!) : comparator(arr[temp]!, arr[j]!)) {
+      if (
+        order
+          ? comparator(arr[j]!, arr[temp]!)
+          : comparator(arr[temp]!, arr[j]!)
+      ) {
         temp = j;
       }
     }

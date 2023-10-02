@@ -7,11 +7,15 @@ describe('bubble sort', () => {
 
   const comparatorSpy = jest
     .fn()
-    .mockImplementation((prev: number, curr: number) => (prev === curr ? 0 : prev > curr ? 1 : -1));
+    .mockImplementation((prev: number, curr: number) =>
+      prev === curr ? 0 : prev > curr ? 1 : -1
+    );
 
   const comparatorObjectSpy = jest
     .fn()
-    .mockImplementation((prev: { v: number }, curr: { v: number }) => (prev.v === curr.v ? 0 : prev.v > curr.v ? 1 : -1));
+    .mockImplementation((prev: { v: number }, curr: { v: number }) =>
+      prev.v === curr.v ? 0 : prev.v > curr.v ? 1 : -1
+    );
 
   const testCases = [
     {
@@ -64,42 +68,108 @@ describe('bubble sort', () => {
       comparator: comparatorSpy,
     },
     {
-      array: [{ v: 1 }, { v: 3 }, { v: 5 }, { v: 7 }, { v: 9 }, { v: 11 }, { v: 13 }, { v: 15 }, { v: 17 }, { v: 19 }],
+      array: [
+        { v: 1 },
+        { v: 3 },
+        { v: 5 },
+        { v: 7 },
+        { v: 9 },
+        { v: 11 },
+        { v: 13 },
+        { v: 15 },
+        { v: 17 },
+        { v: 19 },
+      ],
       value: { v: 7 },
       result: { v: 7 },
       order: undefined,
       comparator: comparatorObjectSpy,
     },
     {
-      array: [{ v: 1 }, { v: 3 }, { v: 5 }, { v: 7 }, { v: 9 }, { v: 11 }, { v: 13 }, { v: 15 }, { v: 17 }, { v: 19 }],
+      array: [
+        { v: 1 },
+        { v: 3 },
+        { v: 5 },
+        { v: 7 },
+        { v: 9 },
+        { v: 11 },
+        { v: 13 },
+        { v: 15 },
+        { v: 17 },
+        { v: 19 },
+      ],
       value: { v: 17 },
       result: { v: 17 },
       order: undefined,
       comparator: comparatorObjectSpy,
     },
     {
-      array: [{ v: 1 }, { v: 3 }, { v: 5 }, { v: 7 }, { v: 9 }, { v: 11 }, { v: 13 }, { v: 15 }, { v: 17 }, { v: 19 }],
+      array: [
+        { v: 1 },
+        { v: 3 },
+        { v: 5 },
+        { v: 7 },
+        { v: 9 },
+        { v: 11 },
+        { v: 13 },
+        { v: 15 },
+        { v: 17 },
+        { v: 19 },
+      ],
       value: { v: 4 },
       result: null,
       order: undefined,
       comparator: comparatorObjectSpy,
     },
     {
-      array: [{ v: 19 }, { v: 17 }, { v: 15 }, { v: 13 }, { v: 11 }, { v: 9 }, { v: 7 }, { v: 5 }, { v: 3 }, { v: 1 }],
+      array: [
+        { v: 19 },
+        { v: 17 },
+        { v: 15 },
+        { v: 13 },
+        { v: 11 },
+        { v: 9 },
+        { v: 7 },
+        { v: 5 },
+        { v: 3 },
+        { v: 1 },
+      ],
       value: { v: 7 },
       result: { v: 7 },
       order: false,
       comparator: comparatorObjectSpy,
     },
     {
-      array: [{ v: 19 }, { v: 17 }, { v: 15 }, { v: 13 }, { v: 11 }, { v: 9 }, { v: 7 }, { v: 5 }, { v: 3 }, { v: 1 }],
+      array: [
+        { v: 19 },
+        { v: 17 },
+        { v: 15 },
+        { v: 13 },
+        { v: 11 },
+        { v: 9 },
+        { v: 7 },
+        { v: 5 },
+        { v: 3 },
+        { v: 1 },
+      ],
       value: { v: 17 },
       result: { v: 17 },
       order: false,
       comparator: comparatorObjectSpy,
     },
     {
-      array: [{ v: 19 }, { v: 17 }, { v: 15 }, { v: 13 }, { v: 11 }, { v: 9 }, { v: 7 }, { v: 5 }, { v: 3 }, { v: 1 }],
+      array: [
+        { v: 19 },
+        { v: 17 },
+        { v: 15 },
+        { v: 13 },
+        { v: 11 },
+        { v: 9 },
+        { v: 7 },
+        { v: 5 },
+        { v: 3 },
+        { v: 1 },
+      ],
       value: { v: 4 },
       result: null,
       order: false,
@@ -114,10 +184,15 @@ describe('bubble sort', () => {
     },
   ];
 
-  it.each(Object.entries(testCases))('test %s:', (_, { array, value, result, order, comparator }) => {
-    expect(binarySearch(array as any[], value, comparator, order)).toEqual(result);
-    if (comparator) {
-      expect(comparator).toBeCalled();
+  it.each(Object.entries(testCases))(
+    'test %s:',
+    (_, { array, value, result, order, comparator }) => {
+      expect(binarySearch(array as any[], value, comparator, order)).toEqual(
+        result
+      );
+      if (comparator) {
+        expect(comparator).toBeCalled();
+      }
     }
-  });
+  );
 });

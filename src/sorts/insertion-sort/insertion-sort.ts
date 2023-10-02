@@ -9,7 +9,12 @@ export const insertionSort = <TItem = number>(
   let i: number, j: number, item: TItem;
   for (i = 1; i < arr.length; i++) {
     item = arr[i]!;
-    for (j = i; j > 0 && (order ? comparator(item, arr[j - 1]!) : comparator(arr[j - 1]!, item)); j--) {
+    for (
+      j = i;
+      j > 0 &&
+      (order ? comparator(item, arr[j - 1]!) : comparator(arr[j - 1]!, item));
+      j--
+    ) {
       arr[j] = arr[j - 1]!;
     }
     arr[j] = item;

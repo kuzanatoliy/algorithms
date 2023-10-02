@@ -15,7 +15,10 @@ describe('greatest common devisior', () => {
     ${90n} | ${84n} | ${6n}
     ${28n} | ${15n} | ${1n}
     ${24n} | ${18n} | ${6n}
-  `('result with $first and $second values should be $result', ({ first, second, result }) => {
-    expect(greatestCommonDevisior(first, second)).toBe(result);
-  });
+  `(
+    'result with $first and $second values should be $result',
+    ({ first, second, result }) => {
+      expect(greatestCommonDevisior(first, second)).toBe(result);
+    }
+  );
 });

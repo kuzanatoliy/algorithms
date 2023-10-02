@@ -16,10 +16,18 @@ export const quickSort = <TItem = number>(
       temp;
     while (i < j) {
       count++;
-      while (order ? comparator(arr[i]!, arr[middle]!) : comparator(arr[middle]!, arr[i]!)) {
+      while (
+        order
+          ? comparator(arr[i]!, arr[middle]!)
+          : comparator(arr[middle]!, arr[i]!)
+      ) {
         i++;
       }
-      while (order ? comparator(arr[middle]!, arr[j]!) : comparator(arr[j]!, arr[middle]!)) {
+      while (
+        order
+          ? comparator(arr[middle]!, arr[j]!)
+          : comparator(arr[j]!, arr[middle]!)
+      ) {
         j--;
       }
       temp = arr[j];
