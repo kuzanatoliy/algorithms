@@ -14,7 +14,11 @@ export const combSort = <TItem = number>(
   while (sh > 1) {
     sh = Math.floor(sh / SHRINK);
     for (j = 0; j + sh < arr.length; j++) {
-      if (order ? comparator(arr[j + sh]!, arr[j]!) : comparator(arr[j]!, arr[j + sh]!)) {
+      if (
+        order
+          ? comparator(arr[j + sh]!, arr[j]!)
+          : comparator(arr[j]!, arr[j + sh]!)
+      ) {
         item = arr[j]!;
         arr[j] = arr[j + sh]!;
         arr[j + sh] = item;

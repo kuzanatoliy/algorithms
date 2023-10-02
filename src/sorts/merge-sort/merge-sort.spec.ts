@@ -6,10 +6,13 @@ describe('merge sort', () => {
     jest.clearAllMocks();
   });
 
-  it.each(Object.entries(testCases))('test %s:', (_, { value, result, comparator, order }) => {
-    expect(mergeSort(value as any, comparator, order)).toEqual(result);
-    if (comparator) {
-      expect(comparator).toBeCalled();
+  it.each(Object.entries(testCases))(
+    'test %s:',
+    (_, { value, result, comparator, order }) => {
+      expect(mergeSort(value as any, comparator, order)).toEqual(result);
+      if (comparator) {
+        expect(comparator).toBeCalled();
+      }
     }
-  });
+  );
 });

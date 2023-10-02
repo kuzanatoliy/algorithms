@@ -9,7 +9,11 @@ export const gnomeSort = <TItem = number>(
   let i: number = 1,
     item: TItem;
   while (i < arr.length) {
-    if (order ? comparator(arr[i - 1]!, arr[i]!) : comparator(arr[i]!, arr[i - 1]!)) {
+    if (
+      order
+        ? comparator(arr[i - 1]!, arr[i]!)
+        : comparator(arr[i]!, arr[i - 1]!)
+    ) {
       i++;
     } else {
       item = arr[i]!;

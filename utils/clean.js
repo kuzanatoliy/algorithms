@@ -5,4 +5,7 @@ const {
 
 const paths = [declarationDir, outDir];
 
-paths.reduce((prev, curr) => prev.then(rm(curr, { recursive: true, force: true })), Promise.resolve());
+paths.reduce(
+  (prev, curr) => prev.then(rm(curr, { recursive: true, force: true })),
+  Promise.resolve()
+);

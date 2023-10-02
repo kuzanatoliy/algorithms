@@ -15,7 +15,11 @@ export const mergeSort = <TItem = number>(
     const right = mergeSort(arr.slice(middle, arr.length), comparator, order);
 
     while (i < left.length && j < right.length) {
-      if (order ? comparator(left[i]!, right[j]!) : comparator(right[j]!, left[i]!)) {
+      if (
+        order
+          ? comparator(left[i]!, right[j]!)
+          : comparator(right[j]!, left[i]!)
+      ) {
         arr[k] = left[i]!;
         i++;
       } else {
