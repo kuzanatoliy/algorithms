@@ -36,7 +36,9 @@
     "math",
     "treatest common devisior",
     "min",
-    "max"
+    "max",
+    "minimum excluded value",
+    "mex"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
