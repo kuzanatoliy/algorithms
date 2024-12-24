@@ -12,11 +12,13 @@
 
 [Max](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/max/README.md)
 
+[Mex](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/mex/README.md)
+
 [Min](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/min/README.md)
 
 ## [Serches](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/README.md)
 
-[Binary search](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/binary-search/README.md)
+[Binary search](https://github.com/kuzanatoliy/algorithms/blob/master/src/searches/binary-search/README.md)
 
 ## [Sequences](https://github.com/kuzanatoliy/algorithms/blob/master/src/sequences/README.md)
 
