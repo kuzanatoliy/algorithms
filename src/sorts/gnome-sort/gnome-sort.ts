@@ -11,8 +11,8 @@ export const gnomeSort = <TItem = number>(
   while (i < arr.length) {
     if (
       order
-        ? comparator(arr[i - 1]!, arr[i]!)
-        : comparator(arr[i]!, arr[i - 1]!)
+        ? !comparator(arr[i]!, arr[i - 1]!)
+        : !comparator(arr[i - 1]!, arr[i]!)
     ) {
       i++;
     } else {
