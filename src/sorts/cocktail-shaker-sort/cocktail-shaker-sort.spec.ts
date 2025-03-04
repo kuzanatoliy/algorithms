@@ -9,11 +9,9 @@ describe('cocktail shaker sort', () => {
   it.each(Object.entries(testCases))(
     'test %s:',
     (_, { value, result, comparator, order }) => {
-      expect(cocktailShakerSort(value as any, comparator, order)).toEqual(
-        result
-      );
+      expect(cocktailShakerSort(value, comparator, order)).toEqual(result);
       if (comparator) {
-        expect(comparator).toBeCalled();
+        expect(comparator).toHaveBeenCalled();
       }
     }
   );

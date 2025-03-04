@@ -9,9 +9,9 @@ describe('gnome sort', () => {
   it.each(Object.entries(testCases))(
     'test %s:',
     (_, { value, result, comparator, order }) => {
-      expect(gnomeSort(value as any, comparator, order)).toEqual(result);
+      expect(gnomeSort(value, comparator, order)).toEqual(result);
       if (comparator) {
-        expect(comparator).toBeCalled();
+        expect(comparator).toHaveBeenCalled();
       }
     }
   );

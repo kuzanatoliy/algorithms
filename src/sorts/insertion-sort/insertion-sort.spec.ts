@@ -9,9 +9,9 @@ describe('insertion sort', () => {
   it.each(Object.entries(testCases))(
     'test %s:',
     (_, { value, result, comparator, order }) => {
-      expect(insertionSort(value as any, comparator, order)).toEqual(result);
+      expect(insertionSort(value, comparator, order)).toEqual(result);
       if (comparator) {
-        expect(comparator).toBeCalled();
+        expect(comparator).toHaveBeenCalled();
       }
     }
   );
