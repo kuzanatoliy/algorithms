@@ -40,10 +40,10 @@ export const timSort = <TItem = number>(
     first = last;
   }
   let sortedArr = insertionSort(temp[0]!, comparator, order);
-  let i = 0,
-    j = 0,
-    k = 0;
   for (let ind = 1; ind < temp.length; ind++) {
+    let i = 0,
+      j = 0,
+      k = 0;
     const ans = [];
     const next = insertionSort(temp[ind]!, comparator, order);
     while (i < sortedArr.length && j < next.length) {
