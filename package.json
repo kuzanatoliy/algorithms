@@ -29,6 +29,7 @@
     "merge sort",
     "quick sort",
     "selection sort",
+    "timsort",
     "queue",
     "stack",
     "sequences",

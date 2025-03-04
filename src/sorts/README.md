@@ -15,3 +15,5 @@
 [Quick sort](quick-sort/README.md)
 
 [Selection sort](selection-sort/README.md)
+
+[Tim sort](tim-sort/README.md)
