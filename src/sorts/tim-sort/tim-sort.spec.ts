@@ -1,7 +1,7 @@
-import { gnomeSort } from './gnome-sort';
+import { timSort } from './tim-sort';
 import { testCases } from '../test-utils';
 
-describe('gnome sort', () => {
+describe('tim sort', () => {
   afterEach(() => {
     jest.clearAllMocks();
   });
@@ -9,7 +9,7 @@ describe('gnome sort', () => {
   it.each(Object.entries(testCases))(
     'test %s:',
     (_, { value, result, comparator, order }) => {
-      expect(gnomeSort(value, comparator, order)).toEqual(result);
+      expect(timSort(value, comparator, order)).toEqual(result);
       if (comparator) {
         expect(comparator).toHaveBeenCalled();
       }

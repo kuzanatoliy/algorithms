@@ -187,11 +187,9 @@ describe('bubble sort', () => {
   it.each(Object.entries(testCases))(
     'test %s:',
     (_, { array, value, result, order, comparator }) => {
-      expect(binarySearch(array as any[], value, comparator, order)).toEqual(
-        result
-      );
+      expect(binarySearch(array, value, comparator, order)).toEqual(result);
       if (comparator) {
-        expect(comparator).toBeCalled();
+        expect(comparator).toHaveBeenCalled();
       }
     }
   );

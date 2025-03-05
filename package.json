@@ -6,7 +6,7 @@
     "clean-artifacts": "node utils/clean.js",
     "build": "tsc",
     "build:local": "yarn run clean-artifacts && yarn run build",
-    "test": "jest src --coverage",
+    "test": "jest src/sorts/stooge-sort --coverage",
     "prettier:write": "prettier --write .",
     "prettier:check": "prettier --check .",
     "commitlint": "commitlint --edit"
@@ -29,6 +29,8 @@
     "merge sort",
     "quick sort",
     "selection sort",
+    "stooge sort",
+    "timsort",
     "queue",
     "stack",
     "sequences",

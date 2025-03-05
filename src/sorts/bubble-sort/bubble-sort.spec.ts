@@ -9,9 +9,9 @@ describe('bubble sort', () => {
   it.each(Object.entries(testCases))(
     'test %s:',
     (_, { value, result, comparator, order }) => {
-      expect(bubbleSort(value as any, comparator, order)).toEqual(result);
+      expect(bubbleSort(value, comparator, order)).toEqual(result);
       if (comparator) {
-        expect(comparator).toBeCalled();
+        expect(comparator).toHaveBeenCalled();
       }
     }
   );
