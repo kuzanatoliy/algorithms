@@ -4,9 +4,9 @@ Stooge sort is a recursive sorting algorithm. It is notable for its exceptionall
 
 ### Complexity
 
-| Time (the worst)       | Memory (middle/the worst) |
-| ---------------------- | ------------------------- |
-| O(n ^ log 3 / log 1.5) | O(n)                      |
+| Time (the worst)       | Memory (the worst) |
+| ---------------------- | ------------------ |
+| O(n ^ log 3 / log 1.5) | O(n)               |
 
 [More details](https://en.wikipedia.org/wiki/Stooge_sort)
 
