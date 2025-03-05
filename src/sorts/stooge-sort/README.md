@@ -1,13 +1,13 @@
-# Quick sort
+# Stooge sort
 
-Quicksort is an in-place sorting algorithm. Developed by British computer scientist Tony Hoare in 1959 and published in 1961, it is still a commonly used algorithm for sorting. When implemented well, it can be somewhat faster than merge sort and about two or three times faster than heapsort.
+Stooge sort is a recursive sorting algorithm. It is notable for its exceptionally poor time complexity. The algorithm's running time is thus slower compared to reasonable sorting algorithms, and is slower than bubble sort, a canonical example of a fairly inefficient sort. It is, however, more efficient than Slowsort. The name comes from The Three Stooges.
 
 ### Complexity
 
-| Time (middle/the worst) | Memory (middle/the worst) |
-| ----------------------- | ------------------------- |
-| O(n log n)/O(n^2)       | O(log n)/O(n)             |
+| Time (the worst)       | Memory (middle/the worst) |
+| ---------------------- | ------------------------- |
+| O(n ^ log 3 / log 1.5) | O(n)                      |
 
-[More details](https://en.wikipedia.org/wiki/Quicksort)
+[More details](https://en.wikipedia.org/wiki/Stooge_sort)
 
-[Source](quick-sort.ts#L4)
+[Source](stooge-sort.ts#L4)
