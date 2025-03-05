@@ -6,7 +6,7 @@
     "clean-artifacts": "node utils/clean.js",
     "build": "tsc",
     "build:local": "yarn run clean-artifacts && yarn run build",
-    "test": "jest src/sorts/stooge-sort --coverage",
+    "test": "jest src --coverage",
     "prettier:write": "prettier --write .",
     "prettier:check": "prettier --check .",
     "commitlint": "commitlint --edit"
@@ -40,7 +40,9 @@
     "min",
     "max",
     "minimum excluded value",
-    "mex"
+    "mex",
+    "greatest common devisior",
+    "lowest common multiple"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",

@@ -10,6 +10,8 @@
 
 [Greatest common devisior](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/greatest-common-devisior/README.md)
 
+[Lowest common multiple](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/lowest-common-multiple/README.md)
+
 [Max](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/max/README.md)
 
 [Mex](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/mex/README.md)
