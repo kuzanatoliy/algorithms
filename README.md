@@ -41,3 +41,5 @@
 [Quick sort](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/quick-sort/README.md)
 
 [Selection sort](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/selection-sort/README.md)
+
+[Timsort](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/tim-sort/README.md)
