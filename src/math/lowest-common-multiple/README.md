@@ -1,7 +1,7 @@
-# Greatest common devisior
+# Lowest common multiple
 
-The greatest common divisor (GCD) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers.
+In arithmetic and number theory, the least common multiple, lowest common multiple, or smallest common multiple of two integers a and b, usually denoted by lcm(a, b), is the smallest positive integer that is divisible by both a and b.
 
-[More details](https://en.wikipedia.org/wiki/Fibonacci_sequence)
+[More details](https://en.wikipedia.org/wiki/Least_common_multiple)
 
-[Source](greatest-common-devisior.ts#L1)
+[Source](lowest-common-multiple.ts#L1)

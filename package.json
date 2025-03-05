@@ -40,7 +40,9 @@
     "min",
     "max",
     "minimum excluded value",
-    "mex"
+    "mex",
+    "greatest common devisior",
+    "lowest common multiple"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
