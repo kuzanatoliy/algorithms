@@ -1,7 +1,5 @@
-# Lowest common multiple
+# Rome numbers
 
-In arithmetic and number theory, the least common multiple, lowest common multiple, or smallest common multiple of two integers a and b, usually denoted by lcm(a, b), is the smallest positive integer that is divisible by both a and b.
+Roman numerals are a numeral system that originated in ancient Rome and remained the usual way of writing numbers throughout Europe well into the Late Middle Ages.
 
-[More details](https://en.wikipedia.org/wiki/Least_common_multiple)
-
-[Source](lowest-common-multiple.ts#L1)
+[More details](https://en.wikipedia.org/wiki/Roman_numerals)
