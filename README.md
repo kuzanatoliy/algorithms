@@ -18,6 +18,8 @@
 
 [Min](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/min/README.md)
 
+[Rome numbers](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/rome-numbers/README.md)
+
 ## [Serches](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/README.md)
 
 [Binary search](https://github.com/kuzanatoliy/algorithms/blob/master/src/searches/binary-search/README.md)
