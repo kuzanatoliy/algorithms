@@ -1,4 +1,4 @@
-import { I, V, X, L, C, D, M } from './rome.constants';
+import { I, V, X, L, C, D, M } from './rome-numbers.constants';
 
 export const turnRomeNumberToNumber = (num: number) => {
   let res = '';
