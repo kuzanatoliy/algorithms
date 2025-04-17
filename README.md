@@ -20,6 +20,8 @@
 
 [Rome numbers](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/rome-numbers/README.md)
 
+[Triangular number](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/triangular-number/README.md)
+
 ## [Serches](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/README.md)
 
 [Binary search](https://github.com/kuzanatoliy/algorithms/blob/master/src/searches/binary-search/README.md)

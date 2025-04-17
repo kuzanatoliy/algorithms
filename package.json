@@ -43,7 +43,9 @@
     "mex",
     "rome numbers",
     "greatest common devisior",
-    "lowest common multiple"
+    "lowest common multiple",
+    "triangular number",
+    "triangle number"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",

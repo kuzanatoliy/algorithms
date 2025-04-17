@@ -11,3 +11,5 @@
 [Min](min/README.md)
 
 [Rome numbers](rome-numbers/README.md)
+
+[Triangular number](triangular-number/README.md)
