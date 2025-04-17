@@ -2,7 +2,7 @@ function mex(...numbers: number[]): number;
 function mex(...numbers: bigint[]): bigint;
 function mex(...numbers: any[]) {
   if (numbers.length === 0) {
-    return 0;
+    return numbers[0].constructor(0);
   }
 
   for (let i = 0; i < numbers.length; i++) {
