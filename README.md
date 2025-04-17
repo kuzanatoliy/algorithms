@@ -20,8 +20,6 @@
 
 [Rome numbers](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/rome-numbers/README.md)
 
-[Triangular number](https://github.com/kuzanatoliy/algorithms/blob/master/src/math/triangular-number/README.md)
-
 ## [Serches](https://github.com/kuzanatoliy/algorithms/blob/master/src/serches/README.md)
 
 [Binary search](https://github.com/kuzanatoliy/algorithms/blob/master/src/searches/binary-search/README.md)
@@ -31,6 +29,8 @@
 [Fibonacci](https://github.com/kuzanatoliy/algorithms/blob/master/src/sequences/fibonacci/README.md)
 
 [Leonardo number](https://github.com/kuzanatoliy/algorithms/blob/master/src/sequences/leonardo-number/README.md)
+
+[Triangular number](https://github.com/kuzanatoliy/algorithms/blob/master/src/sequences/triangular-number/README.md)
 
 ## [Sorts](https://github.com/kuzanatoliy/algorithms/blob/master/src/sorts/README.md)
 
