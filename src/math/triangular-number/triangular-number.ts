@@ -1,6 +1,6 @@
-function triangleNumber(number: number): number;
-function triangleNumber(number: bigint): bigint;
-function triangleNumber<TValue extends number | bigint = number>(
+function triangularNumber(number: number): number;
+function triangularNumber(number: bigint): bigint;
+function triangularNumber<TValue extends number | bigint = number>(
   number: TValue
 ) {
   return number.constructor(
@@ -8,4 +8,4 @@ function triangleNumber<TValue extends number | bigint = number>(
   );
 }
 
-export { triangleNumber };
+export { triangularNumber };
