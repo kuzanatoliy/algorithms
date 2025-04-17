@@ -45,7 +45,8 @@
     "greatest common devisior",
     "lowest common multiple",
     "triangular number",
-    "triangle number"
+    "triangle number",
+    "leonardo number"
   ],
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
