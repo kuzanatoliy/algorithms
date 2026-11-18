@@ -58,6 +58,6 @@ jobs:
           git push
           git push --tags
       - name: types
-        run: git add -f dist types
+        run: git add -f dist
       - name: publish
         run: npm publish --access public

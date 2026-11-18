@@ -11,4 +11,7 @@ utils
 tsconfig.json
 yarn.lock
 jest.config.js
-prettierrc.js
+.prettierignore
+.prettierrc.js
+rollup.config.js
+commitlint.config.js
